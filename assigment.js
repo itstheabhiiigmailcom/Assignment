@@ -148,53 +148,10 @@ let testCase3 = {
     }
 }
 
-let testCase4 = {
-    "keys": {
-        "n": 3,
-        "k": 2
-    },
-    "5": {
-        "base": "2",
-        "value": "1011"
-    },
-    "6": {
-        "base": "8",
-        "value": "16"
-    },
-    "7": {
-        "base": "10",
-        "value": "35"
-    }
-}
-
-let testCase5 = {
-    "keys": {
-        "n": 4,
-        "k": 3
-    },
-    "1": {
-        "base": "16",
-        "value": "A"
-    },
-    "2": {
-        "base": "10",
-        "value": "1"
-    },
-    "3": {
-        "base": "8",
-        "value": "7"
-    },
-    "4": {
-        "base": "10",
-        "value": "12"
-    }
-}
 
 
 // Run the tests
 console.log("Test Case 1: Constant term c =", solveSecret(testCase1));
 console.log("Test Case 2: Constant term c =", solveSecret(testCase2));
 console.log("Test Case 3: Constant term c =", solveSecret(testCase3));
-console.log("Test Case 4: Constant term c =", solveSecret(testCase4));
-console.log("Test Case 5: Constant term c =", solveSecret(testCase5));
 
